@@ -17,10 +17,10 @@ ActiveRecord::Schema.define(version: 2020_05_09_151706) do
 
   create_table "recipes", force: :cascade do |t|
     t.string "title"
-    t.string "difficulty"
+    t.string "difficulty", default: "Easy"
     t.integer "likes", default: 0
     t.string "image", default: "https://img.clipartlook.com/dog-dry-food-bowl-dog-food-clipart-416_416.jpg"
-    t.string "ingredients", array: true
+    t.string "ingredients", default: [], array: true
     t.string "instructions"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
