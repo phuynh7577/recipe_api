@@ -1,24 +1,24 @@
-# README
+## RECIPES FOR TOTO client
+Users will be allowed to create, read, update, and delete doc recipes. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link to front-end and back-end
+* https://recipesfortoto.herokuapp.com/
+* https://recipesfortotoapi.herokuapp.com/recipes/
+    * /1 
 
-Things you may want to cover:
+## Technology Used
+* React.js, React-Router, Ruby on rails, Implemented CORS, Hosted on Heroku.
 
-* Ruby version
+## Approach taken
+* Created API with Ruby on Rails.
+* Setup seeds 
+* create-react-app with full CRUD capabilities.
 
-* System dependencies
+## Notes to self
+* Get rid of the delete option
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## User Stories
+* This site is made for anyone interested in making food for their dog or would like to share a recipe they like.
+* User can create recipes which will get posted to the front page of the site.
+* User can click on the like button.
+* User can click on the title of the recipe to view more information on another page.
