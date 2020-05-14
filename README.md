@@ -4,15 +4,16 @@ Users will be allowed to create, read, update, and delete doc recipes.
 ## Link to front-end and back-end
 * https://recipesfortoto.herokuapp.com/
 * https://recipesfortotoapi.herokuapp.com/recipes/
-    * /1 
+* /1 
 
 ## Technology Used
-* React.js, React-Router, Ruby on rails, Implemented CORS, Hosted on Heroku.
+* React.js, Ruby on rails, Postgres, Hosted on Heroku.
 
 ## Approach taken
 * Created API with Ruby on Rails.
-* Setup seeds 
-* create-react-app with full CRUD capabilities.
+* Data type: Postgres
+* Setup seeds in rails o supply data to React while developing.
+* create-react-app 
 
 ## Notes to self
 * Get rid of the delete option
